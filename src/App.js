@@ -55,7 +55,7 @@ const App = () => {
         <NewsCards articles = {newsArticles} activeArticle = {activeArticle} />
       </div>
       <footer className = "heading" style= {{marginTop:'50px'}}>
-        <p>Created by: <a href="https://mangalarapu.co" target="_blank">Krishna sai patel</a></p>
+        <p>Created by: <a href="https://mangalarapu.co" target="_blank" rel="noopener noreferrer">Krishna sai patel</a></p>
       </footer>
     </ThemeProvider>
   );
